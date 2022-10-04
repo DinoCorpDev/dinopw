@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("~animate.css");
+
+html,
+body {
+  background: #010001;
+  color: #e7e1e3;
+  font-size: 19px;
+  font-family: "NevePlak";
+  overflow-x: hidden;
+  line-height: 18px;
+}
+
+@font-face {
+  font-family: "NevePlak";
+  src: url(/fonts/NeuePlakExtendedExtraBlack.ttf);
+  font-weight: 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "NevePlak";
+  src: url(/fonts/NeuePlakTextBold.ttf);
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "NevePlak";
+  src: url(/fonts/NeuePlakLight.ttf);
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "UniNeue";
+  src: url(/fonts/UniNeueRegular.otf);
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "UniNeue";
+  src: url(/fonts/UniNeueBold.otf);
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "UniNeue";
+  src: url(/fonts/UniNeueHeavy.otf);
+  font-weight: 800;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "UniNeue";
+  src: url(/fonts/UniNeueBlack.otf);
+  font-weight: 900;
+  font-display: swap;
+}
+
+/* html * {
+  background: rgba(255, 0, 0, 0.1);
+  box-shadow: 0 0 0 1px red;
+} */
