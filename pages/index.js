@@ -827,10 +827,10 @@ export default function Landing() {
           </h2>
           <div className="w-full block overflow-hidden">
             <div className="flex justify-self-center w-12/12 pt-4">
-              <div className="hidden md:block h-full m-auto w-full">
+              <div className="hidden md:block h-full m-auto">
                 <Image src={Team} alt="DEVTEAM" />
               </div>
-              <div className="md:hidden h-full m-auto w-full">
+              <div className="md:hidden h-full m-auto">
                 <Image src={TeamRes} alt="DEVTEAM" />
               </div>
             </div>
