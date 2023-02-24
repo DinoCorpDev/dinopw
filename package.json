@@ -17,7 +17,6 @@
     "react-dom": "18.0.0",
     "react-facebook-pixel": "^1.0.4",
     "react-lottie": "^1.2.3",
-    "react-mapbox-gl": "^5.1.1",
     "swiper": "^8.1.4",
     "three": "^0.139.2"
   },
