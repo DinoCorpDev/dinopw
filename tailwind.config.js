@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       colors: {
         nero: "#191919",
-        turquoise: "#b3d6ff",
+        turquoise: "#fff",
         "suva-grey": "#919191",
       },
     },

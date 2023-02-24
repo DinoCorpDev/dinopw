@@ -15,7 +15,7 @@ export default function verticalIcon({
       <div
         className={`iconWrapper ${
           rounded ? "bg-white rounded-full mb-6" : ""
-        } ${timeline ? "mb-5" : ""} mb-2`}
+        } ${timeline ? "mb-2 md:mb-5" : ""} mb-2`}
       >
         {children}
       </div>
