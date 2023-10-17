@@ -34,7 +34,7 @@ const locales = {
       icon2: "Desarrollo WEB",
       icon3: "Documentacion",
       icon4: "Testing y QA",
-      icon5: "Digitalizacion/marca",
+      icon5: "Marketing digital",
     },
     tecnologies: {
       title1: "TECNOLOGIAS",
@@ -53,6 +53,17 @@ const locales = {
       icon8: "PostgreSQL",
       icon9: "Python",
       icon10: "AndroidSt",
+    },
+    webs: {
+      title1: "PAGINA WEB",
+      title2: "PAGINA WEB",
+      text1:
+        "En ",
+      text2:
+        "DINOLABS",
+      text3:
+        ", contamos con un equipo especializado en desarrollo web. Todas nuestras creaciones estan diseñadas con el CMS WordPress para que su contenido sea completamente administrable.",
+      icon1: "Quiero mas información",
     },
     proyects: {
       title1: "PROYECTOS",
@@ -93,7 +104,7 @@ const locales = {
       text2: "Bogotá, Colombia",
       text3: "donde crecen los mejores desarrolladores...",
       sub1: "Contactanos",
-      data1: "+57 3004253257",
+      data1: "+57 3043990333",
       data2: "Calle 50 #15-45",
       data3: "contacto@dinolabs.dev",
     },
@@ -137,7 +148,7 @@ const locales = {
       icon2: "WEB develop",
       icon3: "Documentation",
       icon4: "Testing QA",
-      icon5: "Digital brand",
+      icon5: "Digital Marketing",
     },
     tecnologies: {
       title1: "TECHNOLOGIES",
@@ -156,6 +167,17 @@ const locales = {
       icon8: "PostgreSQL",
       icon9: "Python",
       icon10: "AndroidSt",
+    },
+    webs: {
+      title1: "WEBSITE",
+      title2: "WEBSITE",
+      text1:
+        "In ",
+      text2:
+        "DINOLABS",
+      text3:
+        ", we have a team specialized in web development. All our creations are designed with the WordPress CMS so that your content is completely manageable.",
+      icon1: "More information",
     },
     proyects: {
       title1: "PROJECTS",
@@ -196,7 +218,7 @@ const locales = {
       text2: "Bogotá, Colombia ",
       text3: "where the best developers grow...",
       sub1: "Contact Us",
-      data1: "+57 3004253257",
+      data1: "+57 3043990333",
       data2: "Calle 50 #15-45",
       data3: "contacto@dinolabs.dev",
     },

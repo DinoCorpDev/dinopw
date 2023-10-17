@@ -335,6 +335,13 @@ header {
   p {
     color: #3f6b97;
   }
+  a {
+    color: #fff;
+    padding: 10px;
+    border: solid 1px #3f6b97;
+    border-radius: 20px;
+    background-color: #3f6b97;
+  }
 
   &:hover {
     .iconWrapper {
@@ -357,6 +364,14 @@ header {
       }
     }
 
+    a {
+      color: #fff;
+      padding: 10px;
+      border: solid 1px #fff;
+      border-radius: 20px;
+      background-color: #000;
+    }
+
     p {
       color:#fff;
     }
@@ -364,7 +379,7 @@ header {
 
   .contentWrapper {
     @apply transition duration-300;
-    min-height: 85px;
+    min-height: 96px;
   }
 
   &:hover {

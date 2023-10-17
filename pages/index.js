@@ -10,6 +10,7 @@ import "swiper/css/pagination";
 import Image from "next/image";
 
 import VerticalIcon from "../components/verticalIcon";
+import WebsIcon from "../components/websIcon";
 import Header from "../components/header";
 import Footer from "../components/footer";
 
@@ -29,6 +30,7 @@ import Brand from "../public/digitalbrand.png";
 import IconFacebook from "../public/facebook.png";
 import IconInstagram from "../public/instagram.png";
 import IconWha from "../public/whatsapp.png";
+import WebIcon from "../public/navegador.png";
 
 import IconPrev from "../public/arrow-prev.svg";
 import IconNext from "../public/arrow-next.svg";
@@ -46,8 +48,8 @@ import Postgresql from "../public/postgre.png";
 import Java from "../public/java.png";
 import JavaScript from "../public/java-script.png";
 
-import Team from "../public/DEVTEAM1.png";
-import TeamRes from "../public/DEVTEAMRES.png";
+import Team from "../public/DEVTEAM20.jpg";
+import TeamRes from "../public/DEVTEAMRES2.jpg";
 import Italentt from "../public/ITALENTT1.png";
 import Gaf from "../public/GAFPC.png";
 import Global from "../public/global.png";
@@ -443,6 +445,34 @@ export default function Landing() {
                   {lang.tecnologies.text2}
                 </h5>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="webs" className="mb-2">
+        <div className="container grid w-10/12 pt-12 md:py-12">
+          <div className="md:text-center md:w-11/12 justify-self-center">
+            <h2 className="text-[2.5rem] leading-none md:text-5xl font-extrabold uppercase text-center mb-10 title-res">
+              <span
+                className="text-whiteItis heading-shadow double-text"
+                data-text={lang.webs.title2}
+              >
+                {lang.webs.title1}
+              </span>{" "}
+            </h2>
+            <p className="mb-6 md:mb-20 text-center">{lang.webs.text1}<strong>{lang.webs.text2}</strong>{lang.webs.text3}</p>
+            <div className="md:grid">
+              <WebsIcon
+                desc={lang.webs.icon1}
+                timeline
+              >
+                <div className="normalIcon w-[500px]">
+                  <Image src={WebIcon} alt="x" layout="fill" />
+                </div>
+                <div className="fillIcon">
+                  <Image src={WebIcon} alt="x" layout="fill" />
+                </div>
+              </WebsIcon>
             </div>
           </div>
         </div>
@@ -896,7 +926,7 @@ export default function Landing() {
                         <Image src={IconInstagram} alt="Logo insta" />
                       </div>
                     </a>
-                    <a href="https://api.whatsapp.com/send?phone=573004253257&text=Hola%20DINOLABS%20estoy%20interesado%20en%20sus%20servicios" target="_blank" rel="noopener noreferrer">
+                    <a href="https://wa.me/message/L7LHC7UFRGU5N1" target="_blank" rel="noopener noreferrer">
                       <div className="flex w-7 md:w-9">
                         <Image src={IconWha} alt="Logo wha" />
                       </div>
