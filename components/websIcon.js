@@ -21,7 +21,7 @@ export default function websIcon({
       </div>
       <div className={`${timeline ? "contentWrapper" : ""}`}>
         {desc ? (
-          <a href="https://webs.dinolabs.dev/" className={`${timeline ? "text-[20px] md:text-base" : ""}`}>
+          <a href="https://webs.dinolabs.dev/" target="_blank" rel="noreferrer" className={`${timeline ? "text-[20px] md:text-base" : ""}`}>
             {desc}
           </a>
         ) : null}
