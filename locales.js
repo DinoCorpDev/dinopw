@@ -15,7 +15,7 @@ const locales = {
       title1: "Quienes",
       title2: "Somos?",
       text1:
-        "Una compañia dedicada a la creacion de software a medida, documentacion QA y activacion digital de marcas.",
+        "Una compañia dedicada a la creacion de software a medida, documentacion QA y marketing digital.",
       text2: "",
       text3:
         "Como uno de los objetivos de la compañia es llegar a crear sistemas de software que faciliten los viajes al espacio y su exploracion con aliados como ",
